@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main() {
+    
+    int i, n, soma=0;
+     
+    while(i<=10){
+        
+        printf("digite um numero inteiro (0 para parar): ");
+        scanf("%d", &n);
+       
+        if(n != 0) soma += n;
+        else break;
+       
+        i++;
+    }
+    printf("%d", soma);
+}
