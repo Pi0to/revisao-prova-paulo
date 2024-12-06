@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    
+    int n, s;
+    
+    do {
+        printf("Digite um numero positivo (negativo para parar somar): ");
+        scanf("%d", &n);
+        
+        if(n >= 0) s += n;
+        else break;
+    } while(1);
+    
+    printf("a soma eh %d", s);
+    return 0;
+}
