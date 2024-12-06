@@ -1,0 +1,19 @@
+#include <stdio.h>
+#define t 8
+
+int main() {
+    
+    int v[t], i;
+    
+    
+    for(i=t-1;i>=0;i--){
+        printf("Digite o %d° valor: ", t-i);
+        scanf("%d", &v[i]);
+    }
+    
+    for(i=0;i<t;i++){
+        printf("%d\t", v[i]);
+    }
+    
+    return 0;
+}
